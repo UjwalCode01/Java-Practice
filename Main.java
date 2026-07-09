@@ -1,3 +1,5 @@
+import java.util.*;
+
 public class Main {
     public static void main(String[]args){
         //for loop ===
@@ -21,7 +23,18 @@ public class Main {
         //System.out.println("i am ujwal");
       //}while(i < 11);
     
-      
+      Scanner sc = new Scanner (System.in);
+      int n = sc.nextInt();
+      int sum = 0;
+      for(int i = 0 ; i <= n; i++){
+        sum = sum + i;
+         
+      }
+    
+      System.out.println(sum);
+       
+
+
 
         
         
